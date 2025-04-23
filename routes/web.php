@@ -6,5 +6,5 @@ Route::get('/', function () {
     return view('welcome');
 });
 Route::get('/jira', function(){
-    return view('form');
+    return view('index');
 });
